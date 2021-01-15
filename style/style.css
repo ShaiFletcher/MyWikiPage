@@ -54,13 +54,15 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 25px;
 }
 
 .contact {
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin: left;
-  border-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   padding: 20px;
   background-color: rgb(78, 164, 170);
 }
@@ -68,11 +70,31 @@ p {
 footer {
   font-size: 30px;
   text-align: center;
-  margin-top: 30px;
-  font-size: 30px;
+  margin-top: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#up {
+  font-size: 30px;
+  text-align: center;
+  margin-top: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sport-w{
+  text-align: center
+  float:center;
+}
+.video {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  margin-top: 100px;
+  padding-top: 50px 20px;
+  padding-bottom: 200px; 
+}
 
-@media (min-width: 600px) {
+.explanation{
+  
+}
+@media (min-width: 300px) {
   font-size: 30px;
 }
