@@ -32,7 +32,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 80px;
   text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .contact {
@@ -81,19 +81,27 @@ footer {
 }
 .sport-w{
   text-align: center
-  float:center;
+  float: center;
 }
 .video {
   box-sizing: border-box;
   float: left;
   width: 33.33%;
+  height: 60%;
   margin-top: 100px;
-  padding-top: 50px 20px;
-  padding-bottom: 200px; 
+  margin-bottom: 200px; 
+  padding-left: 10px;
+  padding-right: 10px;
+ 
 }
 
-.explanation{
-  
+#army-pic {
+  display: block;
+  margin: px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 15px;
 }
 @media (min-width: 300px) {
   font-size: 30px;
