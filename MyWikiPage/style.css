@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(218, 219, 226);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.25);
+  transition: transform 1s;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 80px;
+  text-decoration: none;
+}
+
+#home {
+  color: red;
+}
+
+nav ul li a:hover {
+  color: #555;
+}
+
+p {
+  font-size: 26px;
+}
+
+#pic {
+  display: block;
+  margin: 100px 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.contact {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: left;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 20px;
+  background-color: rgb(78, 164, 170);
+}
+
+footer {
+  font-size: 30px;
+  text-align: center;
+  margin-top: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#up {
+  font-size: 30px;
+  text-align: center;
+  margin-top: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sport-w{
+  text-align: center
+  float: center;
+}
+.video {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  margin-top: 100px;
+  margin-bottom: 200px; 
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+
+#army-pic {
+  display: block;
+  margin: px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+@media (min-width: 300px) {
+  font-size: 20px;
+}
