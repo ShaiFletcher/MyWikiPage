@@ -79,8 +79,8 @@ footer {
   margin-top: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.sport-w{
-  text-align: center
+.sport-w {
+  text-align: center;
   float: center;
 }
 .video {
@@ -88,10 +88,9 @@ footer {
   float: left;
   width: 33.33%;
   margin-top: 100px;
-  margin-bottom: 200px; 
+  margin-bottom: 200px;
   padding-left: 10px;
   padding-right: 10px;
- 
 }
 
 #army-pic {
@@ -102,6 +101,8 @@ footer {
   margin-bottom: 30px;
   border-radius: 15px;
 }
-@media (min-width: 300px) {
-  font-size: 20px;
+@media (max-width: 600px) {
+  #navbar {
+    color: green;
+  }
 }
